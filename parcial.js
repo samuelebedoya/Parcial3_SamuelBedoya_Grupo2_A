@@ -11,11 +11,20 @@ let p_acargo;
 
 salario = math(prompt("digite el sueldo que gana: "))
 
+
 if (salario < 0){
     alert("Sueldo no valido")
 }else{
     alert("Dato tomado")
 }
+
+if (salario > salarioMinimo){
+    alert("IBC no valido")
+}else{
+    alert("IBC tomado")
+}
+
+
 
 tipo = prompt("marque 1 si usted es dependiente(Trabajador), marque 2 si es independiente: ")
 
